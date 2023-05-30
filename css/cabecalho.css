@@ -1,0 +1,26 @@
+:root{
+    --cor--principal: gold;
+    --cor--secundaria: brown;
+    --cor--background-botao: 
+
+}
+
+header div{
+    background-color: var(--cor--principal);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav{
+    gap: 30px;
+    display: flex;
+}
+
+nav a{
+    border-radius: 30px;
+    padding: 17px;
+    border: 2px solid var(--cor--secundaria)
+    
+}
