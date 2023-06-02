@@ -13,6 +13,7 @@ header div{
 }
 
 nav{
+    margin-top: 272px;
     gap: 30px;
     display: flex;
 }
@@ -80,6 +81,9 @@ a.diagonal-border {
         align-items: center;
         justify-content: space-around;
     }
+    nav{
+        margin-top: 0px;
+    }
 
 }
 
@@ -119,6 +123,9 @@ a.diagonal-border {
         justify-content: center;
         gap: 10px;
 
+    }
+    nav{
+        margin-top: 0px;
     }
     .video-logo {
         width: 100%;
