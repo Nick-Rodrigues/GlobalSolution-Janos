@@ -18,9 +18,50 @@ nav{
     display: flex;
 }
 
-nav a{
-    border-radius: 30px;
-    padding: 17px;
-    border: 2px solid var(--cor--secundaria)
-    
+.diagonal-border {
+    position: relative;
+    text-decoration: none;
+  }
+  
+.diagonal-border::before {
+    left: 2px;
+    top: -3px;
+    width: 96%;
+    height: 140%;
+    content: "";
+    position: absolute;
+    border-left: 2px solid #2d2d2d;
+    transform: skew(-20deg);
+    transform-origin: top left;
+    transition: width 0.3s ease;
+   }
+  
+.diagonal-border:hover::before {
+    background: #e9b4b44a;
+    width: 101%;
+  }
+.diagonal-border2 {
+    position: relative;
+  }
+.diagonal-border2::before {
+left: 2px;
+ top: -3px;
+     width: 96%;
+     height: 140%;
+     content: "";
+     position: absolute;
+     border-left: 2px solid #2d2d2d;
+     transform: skew(-20deg);
+     transform-origin: top left;
+     transition: width 0.3s ease;
+  }
+nav span{
+    margin: 0 15px;
+    color: var(--cor--secundaria)
 }
+
+nav span:last-child {
+    left: -15px;
+}
+  
+  
