@@ -13,7 +13,7 @@ header div{
 }
 
 nav{
-    margin-top: 272px;
+    margin-top: 272px !important;
     gap: 30px;
     display: flex;
 }
@@ -82,7 +82,7 @@ a.diagonal-border {
         justify-content: space-around;
     }
     nav{
-        margin-top: 0px;
+        margin-top: 0px!important;
     }
 
 }
@@ -97,6 +97,9 @@ a.diagonal-border {
     .diagonal-border::before {
         left: 7px;
         top: -3px;
+    }
+    nav{
+        margin-top: 0px!important;
     }
 
 }
@@ -125,7 +128,7 @@ a.diagonal-border {
 
     }
     nav{
-        margin-top: 0px;
+        margin-top: 0px!important;
     }
     .video-logo {
         width: 100%;
