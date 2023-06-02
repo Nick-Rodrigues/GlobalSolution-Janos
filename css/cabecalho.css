@@ -1,7 +1,6 @@
 :root{
     --cor--principal: gold;
     --cor--secundaria: brown;
-    --cor--background-botao: 
 
 }
 
@@ -18,10 +17,12 @@ nav{
     display: flex;
 }
 
-.diagonal-border {
-    position: relative;
-    text-decoration: none;
-  }  
+nav span {
+    margin: 0 15px;
+    color: var(--cor--secundaria);
+    position: relative; 
+    z-index: 2; 
+  } 
 .diagonal-border::before {
     left: 2px;
     top: -3px;
@@ -46,14 +47,25 @@ nav{
   }
 nav span{
     margin: 0 15px;
-    color: var(--cor--secundaria)
+    color: var(--cor--secundaria);
+    left: -5px;
 }
 .diagonal-border:hover span {
-    color: white; /* Altere para a cor desejada */
+    -webkit-transition: color 1s ease-out;
+    -moz-transition: color 1s ease-out;
+    -o-transition: color 1s ease-out;
+    transition: color 1s ease-out;
+    color: white; 
   }
-
-nav span:last-child {
-    left: -15px;
+a.diagonal-border {
+    position: relative;
+    text-decoration: none;
+    z-index: 1; 
+  }
+.video-logo{
+  width: 100%; 
+  height: auto; 
+  max-width: 400px; 
+  display: block; 
+  margin: 0 auto; 
 }
-  
-  
