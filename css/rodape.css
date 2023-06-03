@@ -1,0 +1,64 @@
+footer {
+    gap: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+div p{
+    font-size: 15px;
+    padding: 25px;
+    background-color: red;
+    transition: background-color 2s, transform 2s;
+}
+
+h2:hover~div p{
+    font-size: 20px;
+    background-color: blue;
+}
+
+div p:nth-child(odd):hover{
+    font-size: 20px;
+    background-color: green;
+    rotate: 360deg;
+    transform: translateX(200px);
+}
+
+div p:nth-child(even):hover{
+    font-size: 20px;
+    background-color: green;
+    rotate: 360deg;
+    transform: translateX(-200px);
+}
+
+@media(max-width: 900px){
+    div p{
+        font-size: 10px;
+        padding: 10px;
+        background-color: red;
+        transition: background-color 2s, transform 2s;
+    }
+    div p:nth-child(odd):hover{
+        font-size: 10px;
+        background-color: green;
+        transform: translateX(10px);
+    }
+    
+    div p:nth-child(even):hover{
+        font-size: 10px;
+        background-color: green;
+        transform: translateX(-10px);
+    }
+    h2:hover~div p{
+        font-size: 10px;
+        background-color: blue;
+    }
+}
