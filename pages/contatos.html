@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Forneça seus dados para contato.</h1>
+    <div>
+    <form action="contatos.html" method="get" onsubmit="return false">
+        <fieldset>
+            <legend>Contatos</legend>
+            <input type="hidden" name="token" value="seus-dados">
+
+            <div>
+                <label for="idNome">Nome</label>
+                <input type="text" name="txtNome" id="idNome" placeholder="Nome completo">
+            </div>
+            <div>
+                <label for="idEmail">Email</label>
+                <input type="text" name="txtEmail" id="idEmail" placeholder="Email">
+            </div>
+            <div>
+                <label for="idTelefone">Telefone</label>
+                <input type="text" name="txtTelefone" id="idTelefone" placeholder="Telefone">
+            </div>
+            <div>
+                <label for="idCpf">CPF</label>
+                <input type="text" name="txtCpf" id="idCpf" placeholder="CPF">
+            </div>
+            <div>
+                <label for="idCep">CEP</label>
+                <input type="text" name="txtCep" id="idCep" placeholder="CEP">
+            </div>
+            <div>
+                <label for="idEndereco">Endereço</label>
+                <input type="text" name="txtEndereco" id="idEndereco" placeholder="Endereço">
+            </div>
+            <div>
+                <label for="idComplemento">Complemento</label>
+                <input type="text" name="txtComplemento" id="idComplemento" placeholder="Complemento">
+            </div>
+            <div>
+                <label for="idGithub">Github</label>
+                <input type="text" name="txtGithub" id="idGithub" placeholder="Github">
+            </div>
+            <div>
+                <label for="idNascimento">Data de nascimento</label>
+                <input type="text" name="txtNascimento" id="idNascimento" placeholder="Nascimento">
+            </div>
+            <div>
+                <label for="idGenero">Gênero</label>
+                <input type="text" name="txtGenero" id="idGenero" placeholder="Gênero">
+            </div>
+            <div>
+                <button type="submit" value="Enviar" id="btnEnviar">Enviar</button>
+                <button type="reset" value="Limpar" id="btnLimpar">Limpar</button>
+            </div>
+        </fieldset>
+    </form>
+</div>
+
+    </div>
+    
+</body>
+</html>
