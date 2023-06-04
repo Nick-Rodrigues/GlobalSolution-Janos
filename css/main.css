@@ -1,0 +1,15 @@
+#main {
+    background-color: #55B276;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#main section img{
+    width: 600px;
+}
+
+#main section h2{
+    text-align: center;
+}
