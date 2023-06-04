@@ -19,6 +19,7 @@ nav{
 }
 
 nav span {
+    font-family: 'Kalam', cursive;
     margin: 0 15px;
     color: var(--cor--secundaria);
     position: relative; 

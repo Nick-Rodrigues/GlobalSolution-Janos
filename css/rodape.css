@@ -16,19 +16,19 @@ footer div {
 footer div div{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
 
 }
 footer div div p{
     font-size: 15px;
-    padding: 25px;
+    padding: 15px;
     background-color: var(--cor--principal--footer);
     transition: background-color 2s, transform 2s;
 }
 
 footer div h2:hover~div p{
-    border-radius: 41px;
-    font-size: 20px;
+    border-radius: 10px;
+    font-size: 15px;
     background-color: var(--cor--secundaria--footer);
 }
 
