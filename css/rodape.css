@@ -1,5 +1,6 @@
 footer{
-    background-color: red;
+    background-color: var(--cor--principal--footer);
+    transition: background-color 2s;
 }
 
 footer div {
@@ -21,25 +22,26 @@ footer div div{
 footer div div p{
     font-size: 15px;
     padding: 25px;
-    background-color: red;
+    background-color: var(--cor--principal--footer);
     transition: background-color 2s, transform 2s;
 }
 
 footer div h2:hover~div p{
+    border-radius: 41px;
     font-size: 20px;
-    background-color: blue;
+    background-color: var(--cor--secundaria--footer);
 }
 
 footer div div p:nth-child(odd):hover{
     font-size: 20px;
-    background-color: green;
+    background-color: var(--cor--secundaria--footer);
     rotate: 360deg;
     transform: translateX(200px);
 }
 
 footer div div p:nth-child(even):hover{
     font-size: 20px;
-    background-color: green;
+    background-color: var(--cor--secundaria--footer);
     rotate: 360deg;
     transform: translateX(-200px);
 }
@@ -48,22 +50,23 @@ footer div div p:nth-child(even):hover{
     footer div div p{
         font-size: 10px;
         padding: 10px;
-        background-color: red;
+        background-color: var(--cor--principal--footer);
         transition: background-color 2s, transform 2s;
     }
     footer div div p:nth-child(odd):hover{
         font-size: 10px;
-        background-color: green;
+        background-color: var(--cor--secundaria--footer);
         transform: translateX(10px);
     }
     
     footer div div p:nth-child(even):hover{
         font-size: 10px;
-        background-color: green;
+        background-color: var(--cor--secundaria--footer);
         transform: translateX(-10px);
     }
     footer div h2:hover~div p{
+        border-radius: 41px;
         font-size: 10px;
-        background-color: blue;
+        background-color: var(--cor--secundaria--footer);
     }
 }

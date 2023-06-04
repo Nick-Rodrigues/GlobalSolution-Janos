@@ -1,9 +1,3 @@
-:root{
-    --cor--principal: #ffd20a;
-    --cor--secundaria: brown;
-
-}
-
 header{
 background-color: var(--cor--principal);
 }
@@ -49,7 +43,7 @@ nav span {
    }
   
 .diagonal-border:hover::before {
-    background: #ff0101;
+    background: var(--cor--secundaria);
     width: 102%;
   }
 nav span{
@@ -112,7 +106,7 @@ a.diagonal-border {
 
 @media (max-width: 500px){
     .diagonal-border:hover::before {
-        background: #ff0101;
+        background: var(--cor--secundaria);
         width: 100%;
     }
     nav span {

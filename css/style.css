@@ -3,3 +3,12 @@
 @import url(./rodape.css);
 @import url(./fonts.css);
 
+:root{
+    --cor--principal: #ffd100;
+    --cor--secundaria: #FF1B0D;
+    --cor--principal--footer: #0DFF62;
+    --cor--secundaria--footer:#55B276;
+}
+
+
+
