@@ -1,0 +1,72 @@
+footer{
+    background-color: var(--cor--principal--footer);
+    transition: background-color 2s;
+}
+
+footer div {
+    max-width: 1200px;
+    gap: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+footer div div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+footer div div p{
+    font-size: 15px;
+    padding: 15px;
+    background-color: var(--cor--principal--footer);
+    transition: background-color 2s, transform 2s;
+}
+
+footer div h2:hover~div p{
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: var(--cor--secundaria--footer);
+}
+
+footer div div p:nth-child(odd):hover{
+    font-size: 20px;
+    background-color: var(--cor--secundaria--footer);
+    rotate: 360deg;
+    transform: translateX(200px);
+}
+
+footer div div p:nth-child(even):hover{
+    font-size: 20px;
+    background-color: var(--cor--secundaria--footer);
+    rotate: 360deg;
+    transform: translateX(-200px);
+}
+
+@media(max-width: 900px){
+    footer div div p{
+        font-size: 15px;
+        padding: 10px;
+        background-color: var(--cor--principal--footer);
+        transition: background-color 2s, transform 2s;
+    }
+    footer div div p:nth-child(odd):hover{
+        font-size: 15px;
+        background-color: var(--cor--secundaria--footer);
+        transform: translateX(10px);
+    }
+    
+    footer div div p:nth-child(even):hover{
+        font-size: 15px;
+        background-color: var(--cor--secundaria--footer);
+        transform: translateX(-10px);
+    }
+    footer div h2:hover~div p{
+        border-radius: 41px;
+        font-size: 13px;
+        background-color: var(--cor--secundaria--footer);
+    }
+}
