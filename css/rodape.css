@@ -48,25 +48,25 @@ footer div div p:nth-child(even):hover{
 
 @media(max-width: 900px){
     footer div div p{
-        font-size: 10px;
+        font-size: 15px;
         padding: 10px;
         background-color: var(--cor--principal--footer);
         transition: background-color 2s, transform 2s;
     }
     footer div div p:nth-child(odd):hover{
-        font-size: 10px;
+        font-size: 15px;
         background-color: var(--cor--secundaria--footer);
         transform: translateX(10px);
     }
     
     footer div div p:nth-child(even):hover{
-        font-size: 10px;
+        font-size: 15px;
         background-color: var(--cor--secundaria--footer);
         transform: translateX(-10px);
     }
     footer div h2:hover~div p{
         border-radius: 41px;
-        font-size: 10px;
+        font-size: 13px;
         background-color: var(--cor--secundaria--footer);
     }
 }

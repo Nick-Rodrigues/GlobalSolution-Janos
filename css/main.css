@@ -14,6 +14,43 @@
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
 }
+#main p, .faixa1 p{
+    font-size: 20px;
+    margin: 10px 20px;
+}
+
+#main faixa1{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#main figure{
+    text-align: center;
+}
+
+#main figure img{
+    max-width: 600px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.faixa1 h2, #main h2{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.conteudo{
+    max-width: 1200px;
+    width: 100%;
+    margin-bottom: 30px;
+    font-family: 'Kalam', cursive;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.faixa1 li{
+    font-size: 25px;
+    margin: 30px 10px;
+    color: var(--cor--principal);
+}
 
 .barra-transicao{
     height: 30px;
@@ -28,7 +65,7 @@
 fieldset {
     margin: 40px auto;
     max-width: 1200px;
-    width: 50%;
+    width: 17%;
     display: flex;
     flex-direction: column;
     align-items: center;
